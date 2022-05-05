@@ -1,7 +1,9 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import Counter from '@/components/Counter.vue';
+</script>
 
 <template>
-  <div id="app">hogehoge</div>
+  <div id="app"><Counter /></div>
 </template>
 
 <style>
