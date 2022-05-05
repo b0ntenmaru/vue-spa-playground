@@ -1,20 +1,7 @@
 <script setup lang="ts">
-import { reactive } from 'vue';
+import { useCounter } from '@/composables/useCounter';
 
-type State = {
-  count: number;
-};
-const state = reactive<State>({
-  count: 0,
-});
-
-const increment = () => {
-  state.count += 1;
-};
-
-const decrement = () => {
-  state.count -= 1;
-};
+const { state, increment, decrement } = useCounter();
 </script>
 
 <template>
