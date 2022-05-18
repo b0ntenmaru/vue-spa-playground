@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-import Counter from '@/components/Counter.vue';
+import Users from '@/components/Users.vue';
 </script>
 
 <template>
-  <div id="app"><Counter /></div>
+  <div id="app"><Users /></div>
 </template>
 
 <style>
